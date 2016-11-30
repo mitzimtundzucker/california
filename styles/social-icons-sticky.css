@@ -1,0 +1,74 @@
+
+/**********************
+Social Icons
+***********************/
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo * ist ein Selektor*/
+[class*="entypo-"]:before {
+   font-family: "entypo", sans-serif;
+}
+
+/*.container {
+   margin: 0 auto;
+   padding: 20px 50px;
+   background: white;
+}*/
+
+#social-icons-sticky {
+	left: 0;
+	position: fixed;
+	top: 400px;
+}
+
+#social-icons-sticky ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+#social-icons-sticky a {
+   
+   color: #fff;
+   display: block;
+   height: 35px;
+   line-height: 35px;
+   position: relative;
+   text-align: center;
+   width: 35px;
+
+   text-decoration: none;
+}
+
+#social-icons-sticky .facebook:hover {
+   background-color: #7894F8;
+}
+
+#social-icons-sticky .facebook {
+	background-color: #3B5EDA;
+}
+
+#social-icons-sticky .instagram:hover {
+   background-color: #7686D6;
+}
+
+#social-icons-sticky .instagram {
+	background-color: #5C69A6;
+}
+
+#social-icons-sticky .pinterest:hover {
+   background-color: #EE5B7B;
+}
+
+#social-icons-sticky .pinterest {
+	background-color: #E11B46;
+}
+
+#social-icons-sticky .envelope:hover {
+   background-color: #DFDFDF;
+}
+
+#social-icons-sticky .envelope {
+	background-color: #A6A6A6;
+}

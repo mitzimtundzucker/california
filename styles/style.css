@@ -1,0 +1,235 @@
+
+/***********************
+Übergreifende Formate
+***********************/
+.wrapper {
+	display: flex; 
+    
+}
+
+body {
+	font-family: Arial;
+	background-color: #b5e0ff;
+	margin: 0px;
+}
+
+header {
+	text-align: 
+}
+
+/***********************
+Links
+***********************/
+
+a {
+	color: #3F84D9;
+	text-decoration: none; 
+
+}
+a:visited {
+	color: #3F84D9;
+	text-decoration: none; 
+}
+a:active {
+	color: #555;
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration: none; 
+	color: #0051B5;
+}
+
+.nav-link:visited {
+	color: white;
+	/* padding: 44px; Damit Linkblock größer wird zum klicken*/
+}
+
+.nav-link:active {
+	color: white;
+}
+
+.nav-link:hover { 
+	text-decoration: none; 
+	color: #0051B5;
+}
+
+/***********************
+Kopf
+***********************/
+.header-imgage {
+	width: 100%;	
+	height: auto;
+	}
+
+.image-wrapper {
+	position: relative;
+	text-align: center;
+}
+
+.image-wrapper h1 {
+    position: absolute;
+	text-align: center;
+    left: calc(50% - 215px);
+    top: 55%;
+    padding: 20px;
+    border: 1px solid #FFF;
+    width: 430px;
+    color: #FFF;
+    margin: 5px;
+}
+
+.button-line {
+	position: absolute;
+	top: 75%;
+	width: 100%;
+	text-align: center;
+}
+
+.header-button {
+	background-color: transparent;
+	display: inline-block;
+	color: white;
+	border: 1px solid #FFF;
+	font-family: Arial;
+	font-size: 15px;
+	text-align: center;
+	padding: 15px 32px;
+	text-align: center;
+	width: 80px;
+}
+.header-button:hover {
+    background-color: #FFF;
+	opacity: 0,5; /*Transparenz*/
+    color: grey; /*bei farbcode funktionierts nicht mehr?!*/
+}
+
+
+
+/***********************
+Inhalt
+***********************/
+h1 {
+	padding: 20px;
+	font-family: Playfair Display;
+	font-size: 50px;
+	color: #6E6E6E;
+	text-align: center;
+}
+
+h2 {
+	padding: 5px;
+	margin: 5px;
+	font-family: Playfair Display;
+	font-size: 40px;
+	color: #6E6E6E;
+}
+
+h3 {
+	font-family: Playfair Display;
+	font-size: 25px;
+	color: #6E6E6E;
+}
+
+h4 {
+	font-family: Playfair Display;
+	font-size: 20px;
+	color: #6E6E6E;
+}
+
+h5 {
+	font-family: Playfair Display;
+	font-size: 15px;
+	color: #6E6E6E;
+}
+
+p {
+	margin-left: 10px;
+}
+
+#aside {
+	background: white;
+	width: 15%;
+	border-radius: 1%;
+	padding: 5px;
+	margin-top: 60px;
+}
+
+main {
+	background: white;
+	width: 100%;
+	margin-left: 45px;
+	margin-right: 45px;
+	border-radius: 0%;
+	margin-top: -4px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	text-align: center;	
+}
+
+time {
+	font-family: Playfair Display;
+	font-size: 10px;
+	color: #6E6E6E;
+}
+
+.teasersmall {
+	width: 80%;
+	height: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	box-shadow: 3px 0px 15px #999; 
+    -moz-box-shadow: 3px 0px 15px #999;
+    -webkit-box-shadow: 3px 0px 15px #999;	
+}
+
+.popular-block {
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+
+#popular-item {
+	text-align: center;
+	color: grey;
+	float: left;
+	width: 25%;
+	padding-bottom: 30px;
+}
+
+.teaser-article {
+	width: 100%; /*Warum ist der Block nicht mehr zentriert, wenn man die Prozentzahl runternimmt*/
+}
+
+.teaser {
+	width: 70%;
+	height: auto;
+	margin: 20px;
+	box-shadow: 3px 0px 15px #999; 
+    -moz-box-shadow: 3px 0px 15px #999;
+    -webkit-box-shadow: 3px 0px 15px #999;
+}
+
+article {
+	margin-bottom: 15px;	
+}
+
+.teaser-paragraph {
+	padding: 0 200px 0 200px ;
+	text-align: center;
+}
+
+/***********************
+Fuß
+***********************/
+
+footer
+{
+	margin-left: 
+	35px;
+}
+
+ 
+
